@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/s1"
+    tools:context=".UserHome">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="90dp"
+            android:text="WELCOME"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:text="USER"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_700"
+            android:textAlignment="center"/>
+
+
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="80dp"
+            android:id="@+id/searchBook1"
+            android:text="Search"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="80dp"
+            android:id="@+id/seeBook"
+            android:text="See My Books"
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:layout_width="300dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonReissue"
+            android:text="Re-issue Books "
+            android:textSize="30sp"
+            />
+
+        <Button
+            android:layout_width="250dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:id="@+id/logOut1"
+            android:text="Log Out"
+            android:textSize="30sp"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+    </RelativeLayout>
